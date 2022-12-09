@@ -13,7 +13,7 @@ Hints:
 ## Dashboards 
 
 | Name      | UUID      | Check Plugin       | Plugin Type                                                                                  | Repeatable | Suggested Panels |
-| --------- | --------- | -------------------------------------------------------------------------------------------- | ---------- | ---------------- |
+| --------- | --------- | ------------------ | -------------------------------------------------------------------------------------------- | ---------- | ---------------- |
 | cpu       | EeILgQF4z | check_cpu_usage    | [Contributed](https://github.com/iamcheko/check_cpu_usage)                                   | Yes        | 1                |
 | disk      | lwrZmQF4k | check_disk         | Default                                                                                      | Yes        | -                |
 | hostalive | OgZGqwO4k | check_ping         | Default                                                                                      | No         | 1                |

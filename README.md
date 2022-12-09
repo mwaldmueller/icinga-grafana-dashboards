@@ -22,7 +22,7 @@ Hints:
 | ido       | ido                | [Built-in](https://icinga.com/docs/icinga-2/latest/doc/10-icinga-template-library/#ido)      | No         | 1,2              |
 | load      | check_load         | Default                                                                                      | Yes        | 1                |
 | memory    | check_linux_memory | [Contributed](https://github.com/hugme/Nag_checks)                                           | Yes        | 4,1              |
-|           | check_mem.pl       | [Contributed](https://github.com/justintime/nagios-plugins)                                  | Yes        | 2,4              |
+| memory    | check_mem.pl       | [Contributed](https://github.com/justintime/nagios-plugins)                                  | Yes        | 2,4              |
 | procs     | check_procs        | Default                                                                                      | No         | 1                |
 | ssh       | check_ssh          | Default                                                                                      | No         | 1                |
 | swap      | check_swap         | Default                                                                                      | No         | 1                |

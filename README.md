@@ -29,18 +29,18 @@ Assumptions:
 
 Default dashboard configuration:
 
-!(_images/configuration_template.png)
+![template](./_images/configuration_template.png)
 
 ## Examples
 
 hostalive:
 
-!(_images/example_hostalive.png)
+![hostalive](./_images/example_hostalive.png)
 
 cpu:
 
-!(_images/example_cpu.png)
+![cpu](./_images/example_cpu.png)
 
 memory:
 
-!(_images/example_memory.png)
+![memory](./_images/example_memory.png)

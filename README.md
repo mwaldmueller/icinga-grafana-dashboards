@@ -52,7 +52,7 @@ cpu:
 
 disk:
 
-![disk](./images/example_disk.png)
+![disk](./_images/example_disk.png)
 
 icinga:
 

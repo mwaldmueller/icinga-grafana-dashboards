@@ -5,7 +5,7 @@ Assumptions:
 * Default dashboard is "template"
 
 Hints:
-* Tested with Grafana v9.3.1 and Grafana Module v1.4.2
+* Tested with [Grafana](https://grafana.com/grafana/) v9.3.1 and [Grafana Module for Icinga Web](https://github.com/Mikesch-mp/icingaweb2-module-grafana) v1.4.2
 * Uses "Time series" panels
 * Currently only InfluxQL supported (Flux is planned afterwards)
 * Panels can be selected according to your needs

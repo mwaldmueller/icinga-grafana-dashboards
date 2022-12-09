@@ -39,7 +39,13 @@ Default dashboard configuration:
 
 ![template](./_images/configuration_template.png)
 
+**Icinga Web Navigation:** Modules > Grafana > Configuration
+
+Graph configuration:
+
 Place example `graphs.ini` into `/etc/icingaweb2/modules/grafana/`.
+
+**Icinga Web Navigation:** Modules > Grafana > Graphs
 
 ## Examples
 

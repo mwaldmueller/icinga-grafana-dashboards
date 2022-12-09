@@ -8,7 +8,7 @@ Assumptions:
 ## InfluxQL
 
 | Dashboard | Check Plugin       | Plugin Type                                                                                  | Repeatable | Panels |
-|-----------|-------------------------------------------------------------------------------------------------------------------|------------|--------|
+| --------- | ------------------ | -------------------------------------------------------------------------------------------- | ---------- | ------ |
 | cpu       | check_cpu_usage    | [Contributed](https://github.com/iamcheko/check_cpu_usage)                                   | Yes        | 1      |
 | disk      | check_disk         | Default                                                                                      | Yes        | 1      |
 | hostalive | check_ping         | Default                                                                                      | No         | 1      |

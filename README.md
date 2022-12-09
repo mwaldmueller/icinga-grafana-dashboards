@@ -50,6 +50,10 @@ cpu:
 
 ![cpu](./_images/example_cpu.png)
 
+disk:
+
+![disk](./images/example_disk.png)
+
 icinga:
 
 ![icinga](./_images/example_icinga.png)

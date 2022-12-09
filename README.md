@@ -20,7 +20,7 @@ Assumptions:
 |           | check_mem.pl       | [Contributed](https://github.com/justintime/nagios-plugins)                                  | Yes        | 2,4    |
 | procs     | check_procs        | Default                                                                                      | No         | 1      |
 | ssh       | check_ssh          | Default                                                                                      | No         | 1      |
-| swap      | check_swap         | Default                                                                                      | No         | 1      |
+| swap      | check_swap         | Default                                                                                      | No         | 1      |
 | template  | Generic            | Generic                                                                                      | No         | 1      |
 | time      | check_ntp_time     | Default                                                                                      | No         | 1      |
 | uptime    | check_uptime       | Default                                                                                      | No         | 1      |

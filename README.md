@@ -5,9 +5,9 @@ Assumptions:
 * Default dashboard is "template"
 * Tested with Grafana v9.3.1 and Grafana Module v1.4.2
 
-## InfluxQL
+## Dashboards 
 
-| Dashboard | Check Plugin       | Plugin Type                                                                                  | Repeatable | Panels |
+| Name      | Check Plugin       | Plugin Type                                                                                  | Repeatable | Panels |
 | --------- | ------------------ | -------------------------------------------------------------------------------------------- | ---------- | ------ |
 | cpu       | check_cpu_usage    | [Contributed](https://github.com/iamcheko/check_cpu_usage)                                   | Yes        | 1      |
 | disk      | check_disk         | Default                                                                                      | Yes        | 1      |
@@ -24,3 +24,23 @@ Assumptions:
 | template  | Generic            | Generic                                                                                      | No         | 1      |
 | time      | check_ntp_time     | Default                                                                                      | No         | 1      |
 | uptime    | check_uptime       | Default                                                                                      | No         | 1      |
+
+## Configuration
+
+Default dashboard configuration:
+
+!(_images/configuration_template.png)
+
+## Examples
+
+hostalive:
+
+!(_images/example_hostalive.png)
+
+cpu:
+
+!(_images/example_cpu.png)
+
+memory:
+
+!(_images/example_memory.png)

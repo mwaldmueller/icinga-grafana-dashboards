@@ -6,8 +6,8 @@ Assumptions:
 
 Hints:
 * Tested with Grafana v9.3.1 and Grafana Module v1.4.2
-* Only for InfluxQL (Flux is planned afterwards)
-* Panels be selected according to your needs
+* Currently only InfluxQL supported (Flux is planned afterwards)
+* Panels can be selected according to your needs
 * "template" Dashboard can be cloned and adjusted
 
 ## Dashboards 

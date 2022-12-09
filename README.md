@@ -7,7 +7,7 @@ Assumptions:
 Hints:
 * Tested with [Grafana](https://grafana.com/grafana/) v9.3.1 and [Grafana Module for Icinga Web](https://github.com/Mikesch-mp/icingaweb2-module-grafana/) v1.4.2
 * Tested with [Icinga](https://icinga.com/) v2.13.6 and [InfluxDB](https://www.influxdata.com/) v2.4.0
-* Uses "Time series" panels
+* Uses "Time series" panels instead of old "Graph" panels
 * Currently only InfluxQL supported (Flux is planned afterwards)
 * Panels can be selected according to your needs
 * "template" Dashboard can be cloned and adjusted

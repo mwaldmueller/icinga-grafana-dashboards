@@ -25,7 +25,7 @@
   "editable": true,
   "fiscalYearStartMonth": 0,
   "graphTooltip": 0,
-  "id": 99,
+  "id": 145,
   "links": [],
   "liveNow": false,
   "panels": [
@@ -121,7 +121,7 @@
       },
       "gridPos": {
         "h": 7,
-        "w": 6,
+        "w": 24,
         "x": 0,
         "y": 0
       },
@@ -390,7 +390,7 @@
         "definition": "SHOW TAG VALUES WITH KEY = \"metric\" where hostname =~ /^$hostname$/ AND service =~ /^$service$/",
         "hide": 0,
         "includeAll": true,
-        "multi": false,
+        "multi": true,
         "name": "metric",
         "options": [],
         "query": "SHOW TAG VALUES WITH KEY = \"metric\" where hostname =~ /^$hostname$/ AND service =~ /^$service$/",
@@ -403,8 +403,8 @@
       {
         "current": {
           "selected": false,
-          "text": "InfluxQL",
-          "value": "InfluxQL"
+          "text": "default",
+          "value": "default"
         },
         "hide": 0,
         "includeAll": false,
@@ -451,6 +451,6 @@
   "timezone": "",
   "title": "disk",
   "uid": "lwrZmQF4k",
-  "version": 9,
+  "version": 2,
   "weekStart": ""
 }

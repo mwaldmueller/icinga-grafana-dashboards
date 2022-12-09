@@ -17,7 +17,7 @@ Hints:
 | Name          | UUID      | Check Plugin       | Plugin Type                                                                                  | Repeatable | Suggested Panels |
 | ------------- | --------- | ------------------ | -------------------------------------------------------------------------------------------- | ---------- | ---------------- |
 | **cpu**       | EeILgQF4z | check_cpu_usage    | [Contributed](https://github.com/iamcheko/check_cpu_usage)                                   | Yes        | 1                |
-| **disk**      | lwrZmQF4k | check_disk         | Default                                                                                      | Yes        | -                |
+| **disk**      | lwrZmQF4k | check_disk         | Default                                                                                      | Yes        | 1,2              |
 | **hostalive** | OgZGqwO4k | check_ping         | Default                                                                                      | No         | 1                |
 | **icinga**    | z6PJ4wKVz | icinga             | [Built-in](https://icinga.com/docs/icinga-2/latest/doc/10-icinga-template-library/#icinga)   | No         | 3,4,9            |
 | **icingadb**  | 5t_cLuK4k | icingadb           | [Built-in](https://icinga.com/docs/icinga-2/latest/doc/10-icinga-template-library/#icingadb) | No         | 4                |
@@ -38,7 +38,7 @@ Default dashboard configuration:
 
 ![template](./_images/configuration_template.png)
 
-Place `graphs.ini` into `/etc/icingaweb2/modules/grafana/`.
+Place example `graphs.ini` into `/etc/icingaweb2/modules/grafana/`.
 
 ## Examples
 

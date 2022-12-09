@@ -50,6 +50,10 @@ cpu:
 
 ![cpu](./_images/example_cpu.png)
 
+icinga:
+
+![icinga](./_images/example_icinga.png)
+
 memory:
 
 ![memory](./_images/example_memory.png)

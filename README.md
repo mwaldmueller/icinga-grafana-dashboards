@@ -15,7 +15,7 @@ Hints:
 | Name      | Check Plugin       | Plugin Type                                                                                  | Repeatable | Suggested Panels |
 | --------- | ------------------ | -------------------------------------------------------------------------------------------- | ---------- | ---------------- |
 | cpu       | check_cpu_usage    | [Contributed](https://github.com/iamcheko/check_cpu_usage)                                   | Yes        | 1                |
-| disk      | check_disk         | Default                                                                                      | Yes        | 1                |
+| disk      | check_disk         | Default                                                                                      | Yes        | -                |
 | hostalive | check_ping         | Default                                                                                      | No         | 1                |
 | icinga    | icinga             | [Built-in](https://icinga.com/docs/icinga-2/latest/doc/10-icinga-template-library/#icinga)   | No         | 3,4,9            |
 | icingadb  | icingadb           | [Built-in](https://icinga.com/docs/icinga-2/latest/doc/10-icinga-template-library/#icingadb) | No         | 4                |

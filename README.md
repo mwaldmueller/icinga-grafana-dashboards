@@ -2,7 +2,8 @@
 
 Assumptions:
 * Uses "default" Grafana data source
-* Default dashboard is "template"
+* Default Grafana dashboard is "template"
+* Icinga InfluxDB bucket is "icinga2"
 
 Hints:
 * Tested with [Grafana](https://grafana.com/grafana/) v9.3.1 and [Grafana Module for Icinga Web](https://github.com/Mikesch-mp/icingaweb2-module-grafana/) v1.4.2
